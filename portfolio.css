@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background: #eac2f6;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Sections */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* List Styles */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Links */
+a {
+    color: #8a9ef0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+section:last-child {
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    background: #fadcdd;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background: #003f7f;
+    border-radius: 5px;
+}
